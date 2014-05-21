@@ -9,5 +9,5 @@ Install via bower:
     % bower install --save videojs-sublime-skin
 
 Then include `dist/videojs-sublime-skin.min.css` in your HTML, and replace the
-`videojs-default-skin` in the class of your `video` elements with
-`videojs-sublime-skin`.
+`vjs-default-skin` in the class of your `video` elements with
+`vjs-sublime-skin`.
