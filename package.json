@@ -1,0 +1,25 @@
+{
+  "name": "videojs-sublime-skin",
+  "version": "1.0.0",
+  "description": "A Video.js skin modeled on SublimeVideo.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cabin/videojs-sublime-skin.git"
+  },
+  "keywords": [
+    "videojs",
+    "video"
+  ],
+  "author": "Zak Johnson <zak@madebycabin.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.6.2",
+    "gulp-base64": "0.0.3",
+    "gulp-concat": "^2.2.0",
+    "gulp-csso": "^0.2.8",
+    "gulp-plumber": "^0.6.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.5.0"
+  }
+}
