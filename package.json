@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "coffee-script": "^1.7.1",
-    "gulp": "^3.6.2",
+    "gulp": "^3.7.0",
     "gulp-base64": "0.0.3",
     "gulp-concat": "^2.2.0",
     "gulp-csso": "^0.2.8",
