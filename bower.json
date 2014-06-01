@@ -5,7 +5,7 @@
     "Zak Johnson <zak@madebycabin.com>"
   ],
   "description": "A Video.js skin modeled on SublimeVideo.",
-  "main": "videojs-sublime-skin.css",
+  "main": "dist/videojs-sublime-skin.css",
   "keywords": [
     "videojs",
     "video"
@@ -13,9 +13,6 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
-    "gulpfile.js",
     "gulpfile.coffee",
     "src"
   ],
