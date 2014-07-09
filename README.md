@@ -4,6 +4,8 @@
 [Video.js]: http://www.videojs.com/
 [SublimeVideo]: http://www.sublimevideo.net/
 
+![](screenshot.png)
+
 Install via bower:
 
     % bower install --save videojs-sublime-skin

@@ -14,6 +14,7 @@
   "ignore": [
     "**/.*",
     "gulpfile.coffee",
+    "screenshot.png",
     "src"
   ],
   "devDependencies": {
