@@ -106,6 +106,7 @@
     right: 0; }
   .vjs-sublime-skin .vjs-fullscreen-control {
     border: 3px solid white;
+    box-sizing: border-box;
     cursor: pointer;
     margin-top: -7px;
     position: absolute;
@@ -151,6 +152,10 @@
   .vjs-sublime-skin .vjs-fullscreen-control .vjs-control-text,
   .vjs-sublime-skin .vjs-slider-handle,
   .vjs-sublime-skin .vjs-volume-handle,
+  .vjs-sublime-skin .vjs-live-controls,
+  .vjs-sublime-skin .vjs-playback-rate,
+  .vjs-sublime-skin .vjs-subtitles-button,
+  .vjs-sublime-skin .vjs-captions-button,
   .vjs-sublime-skin .vjs-mute-control {
     display: none; }
 
