@@ -27,7 +27,7 @@
 }
 
 .vjs-sublime-skin.vjs-controls-disabled .vjs-big-play-button,.vjs-sublime-skin.vjs-has-started .vjs-big-play-button,.vjs-sublime-skin.vjs-using-native-controls .vjs-big-play-button {
-  opacity:0;
+  display: none;
 }
 
 .vjs-sublime-skin .vjs-control-bar {
