@@ -36,13 +36,13 @@ $fullscreen-height: 14px
   // on mobile.
   &.vjs-controls-disabled, &.vjs-has-started, &.vjs-using-native-controls
     .vjs-big-play-button
-      opacity: 0
+      display: none
 
   .vjs-control-bar
     height: $control-height
     opacity: 0
     +position(absolute, null 0 0 0)
-    z-index: 2s
+    z-index: 2
   // Fade the control bar in quickly when the video starts.
   &.vjs-has-started .vjs-control-bar
     opacity: 1
