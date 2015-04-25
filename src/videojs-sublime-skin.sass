@@ -44,11 +44,13 @@ $fullscreen-height: 14px
   .vjs-control-bar
     height: $control-height
     opacity: 0
+    pointer-events: none
     +position(absolute, null 0 0 0)
     z-index: 2
   // Fade the control bar in quickly when the video starts.
   &.vjs-has-started .vjs-control-bar
     opacity: 1
+    pointer-events: auto
     +transition(opacity 100ms $ease-in-out-quad)
   // Fade the control bar out slowly when the video is playing for a while.
   &.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar
