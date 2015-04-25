@@ -18,10 +18,10 @@ $fullscreen-height: 14px
     outline: none
 
   .vjs-big-play-button
-    cursor: pointer
     line-height: $play-button-size
     margin: -($play-button-size / 2)
     opacity: 1
+    pointer-events: none
     +position(absolute, 50% null null 50%)
     +size($play-button-size)
     +transition(opacity 100ms $ease-in-out-quad)
