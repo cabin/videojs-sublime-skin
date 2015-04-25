@@ -13,13 +13,13 @@
   "author": "Zak Johnson <zak@madebycabin.com>",
   "license": "MIT",
   "devDependencies": {
-    "coffee-script": "^1.7.1",
-    "gulp": "^3.7.0",
-    "gulp-base64": "0.0.3",
-    "gulp-concat": "^2.2.0",
-    "gulp-csso": "^0.2.8",
-    "gulp-plumber": "^0.6.1",
-    "gulp-rename": "^1.2.0",
+    "coffee-script": "^1.9.2",
+    "gulp": "^3.8.11",
+    "gulp-base64": "0.1.2",
+    "gulp-concat": "^2.5.2",
+    "gulp-csso": "^1.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "^1.2.2",
     "gulp-ruby-sass": "^0.5.0"
   }
 }
