@@ -1,10 +1,12 @@
 .vjs-sublime-skin {
   color: white; }
+  .vjs-sublime-skin .vjs-poster:focus, .vjs-sublime-skin .vjs-control:focus {
+    outline: none; }
   .vjs-sublime-skin .vjs-big-play-button {
-    cursor: pointer;
     line-height: 50px;
     margin: -25px;
     opacity: 1;
+    pointer-events: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,13 +27,15 @@
   .vjs-sublime-skin .vjs-control-bar {
     height: 50px;
     opacity: 0;
+    pointer-events: none;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 2s; }
+    z-index: 2; }
   .vjs-sublime-skin.vjs-has-started .vjs-control-bar {
     opacity: 1;
+    pointer-events: auto;
     -webkit-transition: opacity 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     -moz-transition: opacity 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: opacity 100ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
@@ -40,6 +44,8 @@
     -webkit-transition: opacity 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     -moz-transition: opacity 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: opacity 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .vjs-sublime-skin.vjs-has-started .vjs-poster {
+    display: none; }
   .vjs-sublime-skin.vjs-using-native-controls .vjs-control-bar, .vjs-sublime-skin.vjs-controls-disabled .vjs-control-bar {
     display: none; }
   .vjs-sublime-skin .vjs-progress-control {
@@ -156,7 +162,8 @@
   .vjs-sublime-skin .vjs-playback-rate,
   .vjs-sublime-skin .vjs-subtitles-button,
   .vjs-sublime-skin .vjs-captions-button,
-  .vjs-sublime-skin .vjs-mute-control {
+  .vjs-sublime-skin .vjs-mute-control,
+  .vjs-sublime-skin .vjs-hidden {
     display: none; }
 
 .video-js {
