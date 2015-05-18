@@ -21,7 +21,6 @@ $fullscreen-height: 14px
     line-height: $play-button-size
     margin: -($play-button-size / 2)
     opacity: 1
-    pointer-events: none
     +position(absolute, 50% null null 50%)
     +size($play-button-size)
     +transition(opacity 100ms $ease-in-out-quad)
@@ -40,6 +39,7 @@ $fullscreen-height: 14px
   &.vjs-controls-disabled, &.vjs-has-started, &.vjs-using-native-controls
     .vjs-big-play-button
       opacity: 0
+      pointer-events: none
 
   .vjs-control-bar
     height: $control-height
